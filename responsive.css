@@ -1,0 +1,143 @@
+@media only screen and (max-width: 1170px) {
+  .nav-list li a {
+    margin: 0 5px;
+  }
+
+  .navbar {
+    padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  body {
+    font-size: 45%;
+  }
+  .heading h1 {
+    font-size: 25px;
+    height: fit-content;
+    margin: 0;
+  }
+  .nav-list li a {
+    margin: 0;
+    padding: 0.6rem 0.5rem;
+  }
+
+  .navbar {
+    padding: 20px 0;
+  }
+  /* service start  */
+  .service-box .service-content {
+    flex: 40%;
+  }
+  .service .heading-slogen {
+    font-size: 0.8rem;
+    /* ma.  */
+  }
+}
+@media only screen and (max-width: 828px) {
+  .nav-list li a {
+    padding-left: 6px;
+  }
+  .header {
+    padding: 0 0 0.5rem;
+  }
+  .header .logo {
+    width: 10rem;
+    height: auto;
+  }
+  .header .logo img {
+    width: 23%;
+  }
+  .navbar {
+    display: block;
+    text-align: center;
+    transition: all.3s ease-in-out;
+  }
+  .nav-list {
+    height: 200px;
+    width: 100%;
+    flex-direction: column;
+    margin: 1rem auto;
+    padding: 10px 0;
+    z-index: 10;
+    transition: all.5s ease;
+  }
+  .burger {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    right: 12%;
+    top: 35px;
+    transition: all 0.5s ease;
+  }
+  .h-nav-resp {
+    display: block;
+    height: 90px;
+    transition: all 0.5s ease;
+  }
+  .btn-main {
+    margin: auto;
+  }
+  .v-class-resp {
+    opacity: 0;
+    transition: all.5s ease;
+  }
+  .about-box p {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+  /* team start  */
+  .team .person-info h2 {
+    font-size: 17px;
+  }
+  /* project start  */
+  .project .container {
+    width: 85%;
+  }
+  /* footer start  */
+  .footer .f-box {
+    flex: 45%;
+  }
+  .f-icons {
+    margin-bottom: 1rem;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 45%;
+  }
+  /* about start  */
+  .about-box .about-info,
+  .about-box .about-img {
+    margin: 1.5rem auto;
+    width: 80%;
+    flex: 80%;
+    padding: 0;
+  }
+  /* service start  */
+  .service-box .service-content {
+    flex: 100%;
+  }
+  /* team start  */
+
+  .person {
+    width: 40%;
+    height: fit-content;
+  }
+  .person .person-info h2 {
+    font-size: 1rem;
+    padding: 0.6rem 0;
+  }
+  /* contect start  */
+  .contect-box {
+    width: 95%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .person {
+    width: 80%;
+    flex: 100%;
+    padding: 0 5rem;
+  }
+}
